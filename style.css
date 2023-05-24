@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Prompt', sans-serif;
+text-transform: uppercase;
+color: white;
+}
+body{
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg,rgba(2,0,36,1)0%, rgba(67,67,102,1)47%, rgba(0,212,255,1)100%);
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav img{
+height: 60px;
+border-radius: 50%;
+margin: 10px;
+box-shadow: 0px 0px 30px rgb(2,0,36);
+}
+nav h1{
+    color: white;
+    font-size: 20px;
+}
+/* ----------------header-------------- */
+header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center; 
+}
+.header-content{
+    display: flex;
+}
+.header-content h2{
+font-size: 50px;
+color: white;
+}
+.header-img img{
+height: 400px;
+opacity: .7;
+border-radius: 30% 70% 76% 24%/70% 30% 70% 30%;
+animation: movimento 3s infinite alternate;
+}
+@keyframes movimento{
+    0%{
+        border-radius: 33% 74% 72% 20%/66% 20% 73% 35%;
+    }
+    25%{
+        border-radius: 36% 66% 69% 30%/60% 20% 70% 50%;
+    }
+    50%{
+        border-radius: 35% 70% 60% 22%/60% 22% 60% 35%;
+    }
+    75%{
+        border-radius: 30% 70% 79% 30%/67% 20% 70% 39%;
+    }
+}
+/* --------------------section---------------------- */
+section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
+.conte-conosco{
+    width: 40%;
+}
+.conte-conosco h3{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.conte-conosco img{
+    height: 70%;
+    width: 100%;
+    border-radius: 60% 43% 40% 57%/50% 80% 10% 40%;
+}
+.filosofia{
+    width: 60%;
+}
+.filosofia p{
+color: white;
+font-size: 50px;
+line-height: 50px;
+margin: 0 25px;
+}
+.barra{
+    height: 1px;
+    background-color: white;
+    width: 80%;
+    margin: 100px auto;
+}
+.produtos{
+color: white;
+font-size: 30px;
+padding: 10px 30px;
+text-align: center;
+letter-spacing: 2px;
+}
+.produtos p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.produtos .banners{
+    display: flex;
+    justify-content: space-between;
+}
